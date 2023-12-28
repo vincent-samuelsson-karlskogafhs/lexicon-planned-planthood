@@ -1,3 +1,4 @@
+/* Här börjar big hero - start */
 .hero-contain {
   display: flex;
   justify-content: center;
@@ -7,4 +8,33 @@
 .img-hand-plant-logo {
   width: 15rem;
   position: absolute;
+}
+/* Här slutar big-hero */
+
+.hero-two-part {
+  display: flex;
+}
+
+.brown-seed {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: var(--color-global-brown);
+}
+
+.img-brown-seed {
+  width: 5rem;
+  height: 14rem;
+}
+
+.green-dig {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: var(--color-global-green);
+}
+
+.img-green-dig {
+  width: 5rem;
+  height: 14rem;
 }
