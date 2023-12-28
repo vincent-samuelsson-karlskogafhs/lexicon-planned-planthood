@@ -1,0 +1,10 @@
+.hero-contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-hand-plant-logo {
+  width: 15rem;
+  position: absolute;
+}
