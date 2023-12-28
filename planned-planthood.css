@@ -1,2 +1,59 @@
 .planthood {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: var(--font-global);
+}
+
+h1 {
+  font-size: x-large;
+  font-weight: 400;
+  font-family: var(--font-maven-pro);
+  color: var(--color-global-green);
+}
+
+.button-contain {
+  margin-top: 1rem;
+}
+.button-sa-tips {
+  background-color: var(--color-global-green);
+  font-family: var(--font-global);
+  font-weight: large;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  border-style: none;
+  box-shadow: -1px 7px 8px -3px rgba(0, 0, 0, 0.2);
+  width: 7rem;
+  height: 2rem;
+}
+
+.costume-line {
+  align-self: center;
+  border: 2px solid var(--color-global-green);
+  border-radius: 8px;
+  width: 50%;
+}
+
+.seed-package {
+  margin-top: 2rem;
+  background-color: var(--color-global-green);
+}
+
+.img-seed-package {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.img-figure-contain {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  width: 18.75rem;
+  height: 18.75rem;
+  /* varför måste jag ha detta ? kan jag inte centera det bara ? */
+  margin-left: 4rem; /*temp*/
+  background-color: var(--color-global-green);
 }
