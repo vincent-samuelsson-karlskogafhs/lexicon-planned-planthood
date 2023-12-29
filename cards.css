@@ -1,5 +1,6 @@
 .cards-main {
   display: grid;
+  padding: 2rem;
   grid-template-columns: repeat(
     2,
     1fr
@@ -8,18 +9,22 @@
     3,
     1fr
   ); /* detta bestämmer hur det ska vara ovanför varandra - Ner med andra ord */
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-gap: 10px;
 }
 
 .cards-contain {
-  display: grid;
-  text-align: center;
+}
+
+.img-card-1 {
+  padding: 1rem;
+  margin: 0;
+  background-image: url(assets/img/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .img-cards-seed-svg {
-  position: absolute;
-  width: 5rem;
 }
 
 .info-text-head {
