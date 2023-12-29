@@ -9,10 +9,12 @@
     3,
     1fr
   ); /* detta bestämmer hur det ska vara ovanför varandra - Ner med andra ord */
-  grid-gap: 10px;
+  grid-gap: 1rem;
 }
 
 .cards-contain {
+  border: 6px solid #ffffff;
+  box-shadow: -1px 7px 8px -3px rgba(0, 0, 0, 0.25);
 }
 
 .img-card-1 {
@@ -24,17 +26,37 @@
   background-size: cover;
 }
 
-.img-cards-seed-svg {
+.info-text-head {
+  font-family: var(--font-lato);
+  font-size: 0.88rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
-.info-text-head {
-  display: flex;
-  justify-content: space-around;
-  background-color: rebeccapurple;
+.info-text-head-date {
+  font-family: var(--font-global);
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 
 .info-text-below {
   display: flex;
-  justify-content: space-around;
-  background-color: red;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-lato);
+  font-weight: 300;
+  font-size: 0.63rem;
+  gap: 4.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.delete-icon {
+  width: 0.82rem;
+  height: 1rem;
+  color: #b93857;
 }
