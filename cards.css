@@ -1,0 +1,35 @@
+.cards-main {
+  display: grid;
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* detta bestämmer hur många det ska vara i rad */
+  grid-template-rows: repeat(
+    3,
+    1fr
+  ); /* detta bestämmer hur det ska vara ovanför varandra - Ner med andra ord */
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.cards-contain {
+  display: grid;
+  text-align: center;
+}
+
+.img-cards-seed-svg {
+  position: absolute;
+  width: 5rem;
+}
+
+.info-text-head {
+  display: flex;
+  justify-content: space-around;
+  background-color: rebeccapurple;
+}
+
+.info-text-below {
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+}
