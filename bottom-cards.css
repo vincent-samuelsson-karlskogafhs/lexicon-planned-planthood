@@ -1,0 +1,30 @@
+.bottom-cards {
+  background-image: url(assets/img/bottom.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.heart-icon {
+  padding: 4rem;
+}
+
+.bottom-card-contain {
+  position: relative;
+  text-align: center;
+  padding: 4rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.phone {
+  position: absolute;
+  left: 1rem;
+  bottom: 0;
+}
+
+.email {
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+}
