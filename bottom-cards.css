@@ -5,27 +5,64 @@
   background-size: cover;
 }
 
+h2 {
+  font-family: var(--font-maven-pro);
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 .heart-icon {
   padding: 4rem;
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+.heart-logo-icon {
+  width: 11.9rem;
+  height: 11.6rem;
 }
 
 .bottom-card-contain {
   position: relative;
   text-align: center;
-  padding: 4rem;
+  padding: 7rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 .phone {
+  font-family: var(--font-maven-pro);
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
   position: absolute;
   left: 1rem;
+  font-size: 0.75rem;
   bottom: 0;
 }
 
 .email {
-  font-family: var(--font-global);
+  font-family: var(--font-maven-pro);
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
   position: absolute;
   right: 1rem;
+  font-size: 0.75rem;
   bottom: 0;
+}
+
+.to-top {
+  font-family: var(--font-global);
+  font-size: 0.75rem;
+  color: black;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  background-color: white;
 }

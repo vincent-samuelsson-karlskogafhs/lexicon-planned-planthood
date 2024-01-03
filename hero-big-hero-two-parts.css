@@ -1,4 +1,13 @@
 /* Här börjar big hero - start */
+
+.hamburger-icon {
+  font-size: 23rem;
+  position: absolute;
+  padding-left: 24rem;
+  padding-top: 2rem;
+  color: green;
+}
+
 .hero-contain {
   display: flex;
   justify-content: center;
